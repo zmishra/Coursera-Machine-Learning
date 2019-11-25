@@ -1,0 +1,32 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 162 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1461309 0 96
+ciMethod java/lang/Object getClass ()Ljava/lang/Class; 3073 1 384 0 -1
+ciMethod java/lang/String <init> ([CII)V 4097 1 5684 0 704
+ciMethod java/lang/String length ()I 4097 1 562027 0 64
+ciMethod java/lang/String getChars (II[CI)V 4097 1 5662 0 320
+ciMethod java/lang/Class getName ()Ljava/lang/String; 633 1 42998 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 105473 1 13184 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 4097 1 164547 0 256
+ciMethod java/lang/AbstractStringBuilder length ()I 9657 1 1207 0 0
+ciMethod java/lang/AbstractStringBuilder ensureCapacityInternal (I)V 16449 1 668872 0 704
+ciMethod java/lang/AbstractStringBuilder newCapacity (I)I 4097 1 5763 0 160
+ciMethod java/lang/AbstractStringBuilder hugeCapacity (I)I 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder setLength (I)V 97 1 15407 0 768
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 4097 1 5730 0 1056
+ciMethod java/lang/AbstractStringBuilder appendNull ()Ljava/lang/AbstractStringBuilder; 9 1 46 0 0
+ciMethod java/lang/StringBuilder <init> ()V 4097 1 119759 0 192
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 4097 1 290304 0 1056
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 1 1 28495 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 4097 1 126843 0 832
+ciMethod java/lang/StringBuilder setLength (I)V 97 1 10606 0 0
+ciMethod java/lang/StringBuilder length ()I 4097 1 220366 0 32
+ciMethod java/lang/Math min (II)I 4097 1 203498 0 -1
+ciMethod java/util/Arrays fill ([CIIC)V 1 1 54 0 -1
+ciMethod java/util/Arrays copyOf ([CI)[C 4097 1 27637 0 0
+ciMethod java/util/Arrays copyOfRange ([CII)[C 4097 1 5688 0 512
+ciMethodData java/lang/Object <init> ()V 2 1461309 orig 264 136 98 154 109 0 0 0 0 104 4 253 107 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 233 81 178 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String length ()I 2 562027 orig 264 136 98 154 109 0 0 0 0 176 58 253 107 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 89 139 68 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/String <init> ([CII)V 2 5684 orig 264 136 98 154 109 0 0 0 0 120 48 253 107 0 0 0 0 80 2 0 0 208 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 161 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x1434 0x50007 0x1434 0x30 0x0 0xd0002 0x0 0x120007 0x1432 0x70 0x2 0x160007 0x2 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x2 0x370007 0x1
